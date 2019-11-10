@@ -10,13 +10,13 @@
     </router-link>
       <button 
         type="button" 
-        class="btn btn-sm btn-menu"
+        class="btn btn-sm btn-menu auth-btn"
         @click="logout"
         >
        Logout <span class="fas fa-sign-in-alt"></span>
     </button>
   </span>
-  <button id="panelLang" type="button" class="btn btn-sm btn-danger"
+  <button id="panelLang" type="button" class="btn btn-sm btn-danger auth-btn"
     @click="login"
     v-else >
     Login <i class="fas fa-sign-in-alt"></i>
@@ -49,3 +49,11 @@ export default {
   
 }
 </script>
+
+
+<style>
+  .auth-btn {
+      margin: auto 0.3rem !important;
+  }
+</style>
+

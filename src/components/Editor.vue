@@ -49,7 +49,7 @@
 
   .headPanel {
     height: 40px !important;
-    padding: 0 15px !important;
+    padding: 5px 15px !important;
   }
 
   .btn span {
