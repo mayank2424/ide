@@ -140,7 +140,7 @@
     z-index: 10;
     margin: 0;
     border-radius: 0;
-    padding-top: 35px;
+    padding-top: 50px !important;
   }
   .inputarea {
     opacity: 0;

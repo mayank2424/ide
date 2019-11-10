@@ -1,6 +1,6 @@
 <template>
-  <div class="panel panel-default">
-    <div class="headPanel panel-heading" style=" border-bottom-width:0px; ">
+  <div class="setting-panel panel panel-default">
+    <div class="sett-panel panel-heading" style=" border-bottom-width:0px; ">
       <div class="btn-group">
         <b>Font:</b>
         <select @change="changeFont">
@@ -113,5 +113,10 @@
     padding: 4px;
     margin-left: 8px;
     border: none;
+    margin-bottom: 0 !important;
+  }
+
+  .setting-panel  {
+      height: auto !important;
   }
 </style>

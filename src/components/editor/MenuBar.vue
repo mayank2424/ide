@@ -547,7 +547,9 @@ export default {
 }
 
 
-
+.hamLogoMenu {
+    text-align: center;
+}
 .logoMenu img , .hamLogoMenu img{
   height: 35px;
 }
@@ -859,7 +861,7 @@ export default {
   min-width: 300px;
   margin-top: 1rem;
   overflow-y: auto;
-  padding: 2rem 1rem 2rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
   border-radius: 12px;
   background-color: #202020;
   box-shadow: 0 2px 6px 2px #101010;
@@ -891,6 +893,9 @@ export default {
   font-weight: 300;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+.auth-ham hr {
+    border-top: 1px solid #383737 !important;
 }
 .slide-fade-enter-active,
 .slide-fade-leave-active {
